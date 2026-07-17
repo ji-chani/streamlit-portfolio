@@ -4,17 +4,21 @@ import os
 
 # --------- IMAGE/ICON PATHS ---------
 IMG_INTRO = "./resources/photo_intro.jpg"
-ICON_LINKEDIN = './resources/logo_linkedin.png'
-ICON_RG = './resources/logo_rg.png'
-ICON_GH = './resources/logo_github.png'
-ICON_GM = './resources/logo_gmail.png'
+ICON_LINKEDIN = './resources/icons/logo_linkedin.png'
+ICON_RG = './resources/icons/logo_rg.png'
+ICON_GH = './resources/icons/logo_github.png'
+ICON_GM = './resources/icons/logo_gmail.png'
 # -------------------------------------
 
+st.set_page_config(
+    page_title="CBJ Portfolio",
+    layout="wide"
+)
 st.title("🚀Cristian Jetomo")
 
 # -------- SIDEBAR
 with st.sidebar:
-    st.text("If you wish to contact me, kindly use the icons!😊")
+    st.markdown("*If you wish to contact me, kindly use the icons!* 😊")
 
 # --------- ABOUT ME -------------
 
